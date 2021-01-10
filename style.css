@@ -1,0 +1,30 @@
+/*
+ Theme Name:   Planteo Child
+ Theme URI:    https://rstheme.com/products/wordpress/planteo/
+ Description:  Planteo Child
+ Author:       RS Theme
+ Author URI:   http://rstheme.com
+ Template:     planteo
+ Version:      1.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+ */
+
+ @media only screen and (max-width: 991px) {
+    .logo-area.mobile_logo a img{
+        height: 35px;
+        width: 170px;
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 1439px) {
+    .menu-area .navbar ul li{
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
+    .vc_custom_1588690328751{
+        padding-top: 80px !important;
+    }
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+    font-family: 'Lekton', monospace;
+    color: white;
+    margin: 0px;
+    width: 100%;
+    height: 99.6vh;
+  }
+  
+  #svgContainer {
+    background-color: #000000;
+  }
+
+  

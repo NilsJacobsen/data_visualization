@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flinkster</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <!-- svgContainer -->
+  <svg id="svgContainer" margin=0px></svg>
+
+  <!-- libs here -->
+  <script src="libraries/gmynd.js"></script>
+  <script src="libraries/snap.svg-min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="libraries/sweep.js"></script>
+  <script src="libraries/path.js"></script>
+
+  <!-- sketches here -->
+  <script src="scripts/base/tooling.js"></script>
+  <script src="scripts/screens/map.js"></script>
+  <script src="scripts/screens/bezier.js"></script>
+  <script src="scripts/screens/scatter.js"></script>
+  <!-- <script src="scripts/screens/sketch.js"></script> -->
+  <script src="scripts/main.js"></script>
+  
+  <!-- data here -->
+  <script type="text/csv" src="data/city_data.csv"></script>
+  <script type="text/csv" src="data/city_and_vehicles.csv"></script>
+  <script type="text/csv" src="data/halfyearbookings.csv"></script>
+  <script type="text/csv" src="data/average_duration.csv"></script>
+</body>
+
+</html>
